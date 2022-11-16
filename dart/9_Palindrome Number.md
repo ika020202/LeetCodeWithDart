@@ -6,6 +6,7 @@
 ・マイナス数値と、0以外の語末が0になる数値(10,100など)は必ずfalseなので先に省いておくと処理時間が若干短縮される。
 
 # Code
+```dart
 class Solution {
   bool isPalindrome(int x) {
     if(x < 0 || (x != 0 && x % 10 == 0)){
@@ -18,3 +19,4 @@ class Solution {
 
   }
 }
+```
