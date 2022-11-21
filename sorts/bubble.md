@@ -7,7 +7,7 @@
 ```dart
 void main() {
   // ソート前データ
-  var targetData = [3, 4, 8, 1, 9, 5, 6, 7, 2, ];
+  var targetData = [3, 4, 8, 1, 9, 5, 6, 7, 2];
   for (var i = 0; i < targetData.length; i++) {
     for (var j = targetData.length - 1; j > i; j--) {
       if (targetData[j] < targetData[j - 1]) {
